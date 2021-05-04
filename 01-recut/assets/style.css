@@ -2341,3 +2341,8 @@ video {
 		margin-left: 0px !important;
 	}
 }
+
+.image-constraint {
+	display: block;
+	width: min(28rem, 100%);
+}
