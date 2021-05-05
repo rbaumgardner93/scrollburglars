@@ -94,7 +94,7 @@ a {
 }
 
 .max-width-wrapper {
-  max-width: 680px;
+  max-width: min(calc(100vw - 35px), 680px);
   margin: 0 auto;
 }
 
